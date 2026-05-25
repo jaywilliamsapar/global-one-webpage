@@ -281,7 +281,7 @@ export default function IndustrialLandingPage() {
 
       {/* Footer */}
       <footer className="bg-black text-gray-300 text-center py-6 text-medium text-color-400">
-        © 2026 🌍 Global One Industrial Technologies Inc. | All Rights Reserved
+        © 2026 🌍 Global One Industrial Technologies Inc. | All Rights Reserved ❤️
       </footer>
       
       
