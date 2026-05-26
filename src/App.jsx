@@ -7,11 +7,11 @@ export default function IndustrialLandingPage() {
     
     {/* Logo + Company Name */}
     <div className="flex items-center gap-4">
-      <img class="size-12 animate-pulse ..."
+      {/* <img class="size-12 animate-pulse ..."
         src="/logo.png"
         alt="Global One Logo"
         className="h-14 w-14 object-contain"
-      />
+      /> */}
 
       <div>
         <h1 className="text-2xl font-bold" >Global One Industrial Technologies Inc.</h1>
@@ -153,13 +153,13 @@ export default function IndustrialLandingPage() {
               <li>✅ E - xcellent service execution</li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <img
               src="/public/files/vision.png"
-              alt="Vision"
+              alt="vision"
               className="rounded-4xl shadow-xl"
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
