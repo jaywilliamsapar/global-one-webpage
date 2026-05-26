@@ -7,7 +7,7 @@ export default function IndustrialLandingPage() {
     
     {/* Logo + Company Name */}
     <div className="flex items-center gap-4">
-      <img class="size-12 animate-pulse ..."
+      <img className="size-12 animate-pulse ..."
         src="/logo.png"
         alt="Global One Logo"
         className="h-14 w-14 object-contain"
