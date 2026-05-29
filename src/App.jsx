@@ -32,7 +32,7 @@ export default function IndustrialLandingPage() {
       <a href="#events" className="hover:text-yellow-400">Events</a>
     </nav>
         <a
-        href="/files/company-profile-v4.pdf"
+        href="/files/company-profile.pdf"
         download
         className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-2 py-3 rounded-2xl shadow-lg transition"
         >
