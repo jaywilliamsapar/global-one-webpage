@@ -32,8 +32,8 @@ export default function IndustrialLandingPage() {
       <a href="#events" className="hover:text-yellow-400">Events</a>
     </nav>
         <a
-        href="/files/company-profile.pdf"
-        download
+        href="/global-one-webpage/files/company-profile.pdf"
+           download
         className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-2 py-3 rounded-2xl shadow-lg transition"
         >
         Download Company Profile
