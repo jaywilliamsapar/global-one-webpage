@@ -7,11 +7,13 @@ export default function IndustrialLandingPage() {
     
     {/* Logo + Company Name */}
     <div className="flex items-center gap-4">
-      <img className="size-12 animate-pulse ..."
-        src="/logo.png"
-        alt="Global One Logo"
-        className="h-14 w-14 object-contain"
-      />
+      <div className="flex items-center gap-4">
+                <img
+          src={`${import.meta.env.BASE_URL}logo.png`}
+          alt="Global One Logo"
+          className="h-14 w-14 object-contain"
+        />  
+      </div>
 
       <div>
         <h1 className="text-2xl font-bold" >Global One Industrial Technologies Inc.</h1>
@@ -27,10 +29,10 @@ export default function IndustrialLandingPage() {
       <a href="#about" className="hover:text-yellow-400">About</a>
       <a href="#contact" className="hover:text-yellow-400">Contact</a>
       <a href="#vision" className="hover:text-yellow-400">Our Vision</a>
-      <a href="#ourpartners" className="hover:text-yellow-400">Partners</a>
+      <a href="#events" className="hover:text-yellow-400">Events</a>
     </nav>
         <a
-        href="/files/company-profile.pdf"
+        href="/files/company-profile-v4.pdf"
         download
         className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-2 py-3 rounded-2xl shadow-lg transition"
         >
@@ -154,11 +156,11 @@ export default function IndustrialLandingPage() {
             </ul>
           </div>
           <div>
-            <img
-              src="/public/files/vision.png"
-              alt="vision"
-              className="rounded-4xl shadow-xl"
-            />
+              <img
+                src="/global-one-webpage/vision.png"
+                alt="vision"
+                className="rounded-4xl shadow-xl"
+              />
           </div>
         </div>
       </section>
