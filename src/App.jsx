@@ -203,15 +203,17 @@ export default function IndustrialLandingPage() {
               <p>Cel No. (+63) 917 303 2810</p>
             </div>
 
+            
+
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
-              <h4 className="font-bold text-xl mb-2">📧 Email</h4>
-              <p>sales@globaloneindustrial.com</p>
-              <p>globalonetechteam@gmail.com</p>
+                <h4 className="font-bold text-xl mb-2">📧 Email</h4>
+                <a href="mailto:globalonetechteam@gmail.com" className="text-blue-600 hover:underline">
+                  globalonetechteam@gmail.com
+                </a>
             </div>
 
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
               <h4 className="font-bold text-xl mb-2">📍 Location</h4>
-
               <a
                 href="https://www.google.com/maps/place/Global+One+Industrial+Technologies,+INC./@14.2780501,120.9833055,279a,35y,0h/data=!3m1!1e3!4m6!3m5!1s0x33bd7f860c836663:0x8079df53b09e16!8m2!3d14.2780046!4d120.9838717!16s%2Fg%2F11p9n8n9pk?entry=ttu&g_ep=EgoyMDI2MDUxNy4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
