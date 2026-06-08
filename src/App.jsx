@@ -31,13 +31,13 @@ export default function IndustrialLandingPage() {
       <a href="#vision" className="hover:text-yellow-400">Our Vision</a>
       <a href="#events" className="hover:text-yellow-400">Events</a>
     </nav>
-        <a
-        href="/global-one-webpage/files/company-profile.pdf"
-           download
+              <a
+        href={`${import.meta.env.BASE_URL}files/company-profile.pdf`}
+        download="company-profile.pdf"
         className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-2 py-3 rounded-2xl shadow-lg transition"
-        >
+      >
         Download Company Profile
-        </a>
+      </a>
   </div>
 </header>
 
