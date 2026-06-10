@@ -31,6 +31,7 @@ export default function IndustrialLandingPage() {
       <a href="#vision" className="hover:text-yellow-400">Our Vision</a>
       <a href="#events" className="hover:text-yellow-400">Events</a>
     </nav>
+
      {/* <a
         href={`${import.meta.env.BASE_URL}files/company-profile.pdf`}
         download="company-profile.pdf"
@@ -38,6 +39,8 @@ export default function IndustrialLandingPage() {
       >
         Download Company Profile
       </a> */}
+
+
   </div>
 </header>
 
@@ -132,7 +135,7 @@ export default function IndustrialLandingPage() {
               <li>✅ Warehouse space optimization</li>
               <li>✅ Professional installation and support</li>
               <li>✅ Competitive pricing and consultation</li>
-              <li>✅ Reliable forklifts and material handling equipment</li>
+              <li>✅ Reliable forklifts and material handling equipments</li>
             </ul>
           </div>
         </div>
@@ -149,7 +152,7 @@ export default function IndustrialLandingPage() {
               To provide a complete storage solution and provide client advantages through:
             </p>
             <ul className="space-y-4 text-gray-700 font-bold">
-              <li>✅ C - competent support team</li>
+              <li>✅ C - ompetent support team</li>
               <li>✅ A - uthentic service approach</li>
               <li>✅ R - esponsible and reliable workforce</li>
               <li>✅ E - xcellent service execution</li>
