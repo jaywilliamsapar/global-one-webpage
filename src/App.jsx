@@ -6,8 +6,8 @@ export default function IndustrialLandingPage() {
   <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
     
     {/* Logo + Company Name */}
-    <div className="flex items-center gap-4">
-      <div className="flex items-center gap-4">
+    <div className="flex items-center gap-4" >
+      <div className="flex items-center gap-4 animate-pulse">
                 <img
           src={`${import.meta.env.BASE_URL}logo.png`}
           alt="Global One Logo"
@@ -31,13 +31,13 @@ export default function IndustrialLandingPage() {
       <a href="#vision" className="hover:text-yellow-400">Our Vision</a>
       <a href="#events" className="hover:text-yellow-400">Events</a>
     </nav>
-              <a
+     {/* <a
         href={`${import.meta.env.BASE_URL}files/company-profile.pdf`}
         download="company-profile.pdf"
         className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-2 py-3 rounded-2xl shadow-lg transition"
       >
         Download Company Profile
-      </a>
+      </a> */}
   </div>
 </header>
 
@@ -62,12 +62,12 @@ export default function IndustrialLandingPage() {
             >
               Request Quotation
             </a>
-
             <a
-              href="#services"
+              href={`${import.meta.env.BASE_URL}files/company-profile.pdf`}
+              download="company-profile.pdf"
               className="border border-white hover:bg-white hover:text-black px-8 py-4 rounded-2xl transition"
             >
-              View Services
+              Download Company Profile
             </a>
           </div>
         </div>
